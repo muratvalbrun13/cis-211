@@ -3,6 +3,7 @@
   --text: #222222;
   --muted: #666666;
   --accent: #2f5bd8;
+  --btncolor:#000;
   --border: #dddddd;
   --radius: 6px;
 }
@@ -62,11 +63,12 @@ main {
 
 /* Button */
 .btn {
+  /*-webkit-appearance: none; */
   display: inline-block;
   padding: 0.6rem 1.2rem;
   border: none;
   border-radius: var(--radius);
-  background: var(--accent);
+  background: var(--btncolor);
   color: #fff;
   font-size: 1rem;
   text-decoration: none;
