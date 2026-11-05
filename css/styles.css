@@ -4,6 +4,7 @@
   --muted: #666666;
   --accent: #2f5bd8;
   --btncolor:#000;
+  --btncolor2:#e8dfdf;
   --border: #dddddd;
   --radius: 6px;
 }
@@ -28,10 +29,15 @@ img {
 h1, h2, h3 {
   line-height: 1.2;
   margin-bottom: 0.5em;
+  
+  }
+  h1{
+  font-size:3rem;
 }
-
 p {
+  color:var(--text);
   margin-bottom: 1em;
+  font-size:1rem;
 }
 
 a {
@@ -50,17 +56,44 @@ footer {
   padding: 1rem 0;
   border-bottom: 1px solid var(--border);
 }
-
+header nav{
+  display:flex;
+  justify-content:space-between;
+  margin:0px 20px;  
+}
+header nav ul{
+  display:flex;
+  flex-direction:row;
+  list-style:none;
+  gap:20px;
+}
+header nav ul li{
+  color: var(--text);
+}
+header nav ul li a{
+  text-decoration: none;
+  color: var(--text);
+}
 footer {
   border-top: 1px solid var(--border);
   border-bottom: none;
   color: var(--muted);
 }
-
+footer nav ul{
+  display:flex;
+  flex-direction:row;
+  list-style: none;
+  
+}
+footer nav ul li{
+  color: var(--text);
+}
 main {
   padding: 2rem 0;
 }
-
+main.container{
+  display:grid;
+}
 /* Button */
 .btn {
   /*-webkit-appearance: none; */
@@ -75,7 +108,19 @@ main {
   cursor: pointer;
 }
 
-.btn:hover {
+.btn2{
+  /*-webkit-appearance: none; */
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: var(--radius);
+  background: var(--btncolor2);
+  color: #333;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+
+}.btn:hover {
   opacity: 0.9;
 }
 
@@ -85,7 +130,17 @@ main {
   border: 1px solid var(--border);
   border-radius: var(--radius);
 }
-
+/* Hero */
+.hero{
+  width:1200px;
+  height:800px;
+  background-color: #fff;
+  text-align:center;
+}
+.hero .heroImg{
+  width:960px;
+  height:608px;
+}
 /* Forms */
 input,
 textarea {
