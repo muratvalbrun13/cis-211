@@ -135,6 +135,7 @@ footer .navTop{
 footer nav {
   display:flex;
   justify-content: space-between;
+  width:100%;
 }
 footer nav ul {
   display: flex;
