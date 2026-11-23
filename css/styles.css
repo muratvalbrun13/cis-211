@@ -127,8 +127,13 @@ footer {
   height:588px;
   background-color:#fff546;
 }
+footer .navTop{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
 footer nav {
-  display: flex;
+  display:flex;
   justify-content: space-between;
 }
 footer nav ul {
