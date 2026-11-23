@@ -270,3 +270,52 @@ textarea {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
+/* ==========================================================================
+   BREAKPOINT 1: Small Phones / Large Mobile (320px – 767px)
+   ========================================================================== */
+@media (min-width: 320px) and (max-width: 767px) {
+  .container {
+    max-width: 767px;
+    padding-inline: 1.5rem;
+  }
+}
+
+/* ==========================================================================
+   BREAKPOINT 2: Tablet (768px – 1023px)
+   ========================================================================== */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 768px;
+    padding-inline: 2rem;
+  }
+}
+
+/* ==========================================================================
+   BREAKPOINT 3: Laptop / Small Desktop (1024px – 1279px)
+   ========================================================================== */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .container {
+    max-width: 1024px;
+    padding-inline: 2.5rem;
+  }
+}
+
+/* ==========================================================================
+   BREAKPOINT 4: Standard Desktop (1280px – 1535px)
+   ========================================================================== */
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .container {
+    max-width: 1200px;
+    padding-inline: 2.5rem;
+  }
+}
+
+/* ==========================================================================
+   BREAKPOINT 5: Large / Widescreen Desktop (1536px and up)
+   ========================================================================== */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1360px;
+    padding-inline: 3rem;
+  }
+}
