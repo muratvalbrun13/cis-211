@@ -265,6 +265,11 @@ textarea {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
+.clarity{
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
 /* ==========================================================================
    BREAKPOINT 1: Small Phones / Large Mobile (320px – 767px)
    ========================================================================== */
