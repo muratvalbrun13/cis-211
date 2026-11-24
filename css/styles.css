@@ -207,12 +207,6 @@ footer .footerLogo{
   opacity: 0.9;
 }
 
-/* Card */
-.card {
-  padding: 1rem;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-}
 
 /* Hero */
 .hero {
@@ -269,6 +263,12 @@ textarea {
   display:flex;
   justify-content: space-between;
   flex-direction: row;
+}
+/* Card */
+.clarity .card {
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
 }
 /* ==========================================================================
    BREAKPOINT 1: Small Phones / Large Mobile (320px – 767px)
