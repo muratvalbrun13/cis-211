@@ -259,13 +259,13 @@ textarea {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
-.values{
+.clarity{
   display:flex;
   justify-content: space-between;
   flex-direction: row;
 }
 /* Card */
-.values .card {
+.clarity .card {
   padding: 1rem;
   border: 1px solid var(--border);
   border-radius: var(--radius);
