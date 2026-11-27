@@ -284,10 +284,17 @@ font-family:var(--font-display);
 }
 /* Card */
 .clarity .cardswrapper .card{
-  padding: 1rem;
+  padding: 2.5rem;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background-color:#fff;
+}
+.clarity .cardswrapper .card img {
+  margin-bottom:2rem;
+}
+.clarity .cardswrapper .card h5 {
+  font-size:20px;
+  font-family:var(--font-display);
 }
 .clarity .cardswrapper {
   display:flex;
