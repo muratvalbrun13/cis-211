@@ -12,7 +12,7 @@
   --btncolor: #000;
   --btncolor2: #e8dfdf;
   --border: #dddddd;
-  --radius: 0px;
+  --radius: 16px;
   --font-size: 1rem;
 }
 
@@ -267,13 +267,33 @@ textarea {
 .clarity{
   display:flex;
   justify-content: space-between;
-  flex-direction: row;
+  flex-direction: column;
+  align-items:center;
+  background-image:url("../images/Values-section-bg.png");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  padding:120px 20px;
+}
+.clarity h2 {
+  font-size:80px;
+  text-align:center;
+}
+.clarity h2 span{
+font-family:var(--font-display);
 }
 /* Card */
-.clarity .card {
+.clarity .cardswrapper .card{
   padding: 1rem;
   border: 1px solid var(--border);
   border-radius: var(--radius);
+  background-color:#fff;
+}
+.clarity .cardswrapper {
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 1.5rem;
 }
 /* ==========================================================================
    BREAKPOINT 1: Small Phones / Large Mobile (320px – 767px)
