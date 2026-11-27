@@ -276,7 +276,7 @@ textarea {
 @media (min-width: 320px) and (max-width: 767px) {
   .container {
     max-width: 767px;
-    padding-inline: 1.5rem;
+    
   }
 }
 
@@ -286,7 +286,7 @@ textarea {
 @media (min-width: 768px) and (max-width: 1023px) {
   .container {
     max-width: 768px;
-    padding-inline: 2rem;
+    
   }
 }
 
@@ -296,7 +296,7 @@ textarea {
 @media (min-width: 1024px) and (max-width: 1279px) {
   .container {
     max-width: 1024px;
-    padding-inline: 2.5rem;
+    
   }
 }
 
@@ -306,7 +306,7 @@ textarea {
 @media (min-width: 1280px) and (max-width: 1535px) {
   .container {
     max-width: 1200px;
-    padding-inline: 2.5rem;
+    
   }
 }
 
@@ -316,6 +316,6 @@ textarea {
 @media (min-width: 1536px) {
   .container {
     max-width: 1360px;
-    padding-inline: 3rem;
+    
   }
 }
